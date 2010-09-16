@@ -213,3 +213,5 @@ function addPara($s,$p) {
 }//end function
 
 ?>
+
+<?php ob_flush(); flush(); ?>
